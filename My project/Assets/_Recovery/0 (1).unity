@@ -5315,13 +5315,13 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 10
-  m_Acceleration: 10
+  m_Speed: 3.5
+  m_Acceleration: 8
   avoidancePriority: 50
-  m_AngularSpeed: 150
+  m_AngularSpeed: 120
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 0
-  m_AutoBraking: 0
+  m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 0.00001
   m_BaseOffset: 0.5
@@ -5399,7 +5399,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Size: {x: 0.98946, y: 1.0632505}
-  m_EdgeRadius: 0.1
+  m_EdgeRadius: 0.2
 --- !u!212 &629135475
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5486,7 +5486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCRunning
   Player: {fileID: 1085933526}
-  EnemyDistanceRun: 3
+  EnemyDistanceRun: 4
 --- !u!224 &675550400 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1740634597032278947, guid: 7b8eb922d7fee914aa2ecd9bc43914c0, type: 3}
@@ -7254,8 +7254,8 @@ Transform:
   m_GameObject: {fileID: 839312850}
   serializedVersion: 2
   m_LocalRotation: {x: -0.04046984, y: 0.08734676, z: -0.5663536, w: -0.81852084}
-  m_LocalPosition: {x: 28.786, y: 3.1595, z: 0.0067}
-  m_LocalScale: {x: 0.39385736, y: 9.070513, z: 0}
+  m_LocalPosition: {x: 29.06, y: 3.089, z: -0.0035}
+  m_LocalScale: {x: 0.29663518, y: 8.5675955, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 725240339}
